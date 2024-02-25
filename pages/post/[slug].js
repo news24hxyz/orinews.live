@@ -34,7 +34,7 @@ export default function Page({ data }) {
 export async function getServerSideProps({ req, res, params }) {
     const slug = params.slug;
 
-    const destURL = `https://hotnews24h.online/${slug}`
+    const destURL = `https://orinews.live/${slug}`
 
     const { referer } = req.headers;
 
